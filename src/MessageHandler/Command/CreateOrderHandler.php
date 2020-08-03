@@ -11,7 +11,7 @@ class CreateOrderHandler
     {
         // do stuff
 
-        sleep(4);
+        sleep(10);
         var_dump($createOrder);
     }
 }

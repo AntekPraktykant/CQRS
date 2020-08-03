@@ -9,7 +9,7 @@ class SignUpSMSHandler
 {
     public function __invoke(SignUpSMS $signUpSMS)
     {
-        sleep(2);
+        sleep(10);
         var_dump($signUpSMS);
     }
 }

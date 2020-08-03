@@ -14,3 +14,7 @@ framework:
             # 'App\Message\YourMessage': async
               'App\Message\Command\CreateOrder': async
               'App\Message\Command\SignUpSMS': async
+
+#              'App\Message\Query\SearchQuery': async
+# can't be called $result = $this->handle(new SearchQuery($search));
+# Message of type "App\Message\Query\SearchQuery" was handled zero times.
